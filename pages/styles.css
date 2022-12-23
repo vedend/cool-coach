@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(30, 2, 41);
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -61,9 +61,9 @@ body {
 .header-subtitle h2 {
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 1.4em;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(244, 240, 238, 0.75);
 }
 
 .prompt-container {
@@ -166,17 +166,17 @@ textarea {
 }
 
 .or p {
-    color: rgba(255, 255, 255, 0.25)
+    color: rgba(248, 252, 238, 0.25)
 }
 
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(0, 0, 0);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     gap: 10px;
     height: min-content;
     overflow: hidden;
@@ -394,7 +394,7 @@ textarea {
 
  /* Loading ring animation */
 .loader {
-    width: 18px;
+    width: auto;
     height: 18px;
     border-radius: 50%;
     display: inline-block;
